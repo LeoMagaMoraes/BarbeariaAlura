@@ -3,14 +3,19 @@ header {
     padding: 20px 0;
 }
 
+.logo {
+    transition: 1s transform;
+}
 
+.logo:hover {
+    transform: scale(1.2)
+}
 
 .caixa {
     position: relative;
-    width: 1080px;
+    width: 940px;
     margin: 0 auto;
 }
-
 
 nav {
     position: absolute;
@@ -18,10 +23,14 @@ nav {
     right: 0%;
 }
 
+nav ul {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-    padding: 20px;
 }
 
 nav a {
@@ -30,7 +39,6 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-
 
 }
 
@@ -106,6 +114,8 @@ em strong {
 
 
 
+
+
 ul {
     display: inline-block;
     vertical-align: top;
@@ -115,7 +125,12 @@ ul {
 
 li {
     font-size: 120%;
-    margin: 10px
+    margin: 10px;
+    transition: 1s transform;
+}
+
+li:hover {
+    transform: scale(1.2);
 }
 
 .imgbeneficios {
