@@ -40,6 +40,7 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    text-shadow: 1px 1px 2px black;
 
 }
 
@@ -51,7 +52,7 @@ nav a:hover {
 
 
 .Produtos {
-    width: 1080px;
+    width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 
@@ -68,6 +69,7 @@ nav a:hover {
     border: 5px solid #000000;
     border-radius: 10px;
     transition: 1s transform;
+
 
 
 }
@@ -113,6 +115,10 @@ footer {
 }
 
 main {}
+
+.contato-pag {
+    margin-left: 20px;
+}
 
 form {
     margin: 40px 0;
@@ -195,6 +201,7 @@ th {
     clear: left;
     font-weight: bold;
 
+
 }
 
 .principal {
@@ -245,6 +252,7 @@ th {
     background: #888888;
     font-size: 18px;
 
+
 }
 
 .conteudo-beneficios {
@@ -273,9 +281,83 @@ th {
 .img-beneficios {
     width: 60%;
     border-radius: 5px;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 0 #000000;
+    /*box-shadow: X | Y | OPACIDADE | INTENSIDADE | COR */
+}
+
+.img-beneficios:hover {
+    opacity: 0.3;
+    transition: 1s;
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video,
+    .formulario,
+    .checkbox,
+    .enviar,
+    .horario,
+    .fildset {
+        width: auto;
+    }
+
+    .titulo-principal {
+        margin: 0 0 40px 0;
+    }
+
+    .img-beneficios {
+        margin: 30px 0 40px 0;
+    }
+
+    .formulario,
+    .checkbox,
+    .enviar,
+    .horario,
+    .fildset {
+        margin: 10px 10px 10px 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin: 0 40px 0 0;
+    }
+
+    .lista-beneficios,
+    .img-beneficios,
+    .Produtos {
+        width: 100%;
+    }
+
+
+    .Produtos li {
+        display: inline-table;
+        margin: 20px 40px 20px 50px;
+
+    }
+
+    .formulario {
+        margin-right: 20px;
+    }
+
+    select {
+        font-size: 120%;
+        margin: 10px 0 10px 0;
+    }
+
+
 }
