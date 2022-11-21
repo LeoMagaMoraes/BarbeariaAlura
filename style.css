@@ -334,7 +334,6 @@ th {
 
     nav {
         position: static;
-        margin: 0 40px 0 0;
     }
 
     .lista-beneficios,
@@ -346,7 +345,7 @@ th {
 
     .Produtos li {
         display: inline-table;
-        margin: 20px 40px 20px 50px;
+        margin: 20px 40px 20px 40px;
 
     }
 
